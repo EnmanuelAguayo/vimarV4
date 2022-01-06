@@ -1,0 +1,16 @@
+.margen-superior{
+  margin-top: 15vh;
+}
+.justificar-parrafo{
+  text-align: justify;
+}
+.tamaño-logo-vidiors-mallorca{
+  max-width: 200px;
+  min-width: 150px;
+}
+.gray-text{
+  color: gray !important;
+}
+.logo-vidrios-mallorca2{
+  max-width: 65px;
+}

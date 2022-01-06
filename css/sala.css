@@ -1,0 +1,97 @@
+.logo-vidrios-mallorca2{
+  max-width: 65px;
+}
+/*-------------------------------media queries*---------------------------------/
+
+/*smartphone <=600px*/
+@media (min-width:350px) and (max-width:600px){
+  .fondo-sala{
+    background: url(../img/sala.png) top center no-repeat;
+    background-size: 100%;
+    height: 30vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 15vh;
+    left: 25vw;
+    width: 70%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .titulo-for-smartphone{
+    font-size: 2em;
+  }
+  .tamaño-texto{
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+/*tablets >600px*/
+@media (min-width:601px) and (max-width:992px){
+  .fondo-sala{
+    background: url(../img/sala.png) top center no-repeat;
+    background-size: 100%;
+    height: 35vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 15vh;
+    left: 45vw;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .titulo-for-smartphone{
+    font-size: 2.8em;
+  }
+  .tamaño-texto{
+    font-size: 1.7em;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+/*Dispositivos de escritorio >992px*/
+@media (min-width:993px) and (max-width:1200px){
+  .fondo-sala{
+    background: url(../img/sala.png) center no-repeat;
+    background-size: 100%;
+    height: 45vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 20vh;
+    width: 45%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .titulo-for-smartphone{
+    font-size: 2.8em;
+  }
+  .tamaño-texto{
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+/*Dispositivos de escritorio grandes >1200px*/
+@media (min-width:1201px){
+  .fondo-sala{
+    background: url(../img/sala.png) center no-repeat;
+    background-size: 100%;
+    height: 75vh;
+  }
+  .solicitar-servicio{
+    position: absolute;
+    top: 35vh;
+    width: 35%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .tamaño-texto{
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+  }
+}

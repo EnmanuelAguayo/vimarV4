@@ -1,0 +1,16 @@
+@keyframes animation-ejemplo{
+  from{
+    transform: translateX(-105%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes animation-ejemplo{
+  from{
+    transform: translateX(-105%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
